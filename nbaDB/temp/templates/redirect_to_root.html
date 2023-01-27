@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Redirecting nbaDB</title>
+    <link rel="stylesheet" type="text/css" href="https://web2.tecnico.ulisboa.pt/~ist199088/templates/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="https://www.nba.com/favicon-32x32.png" type="image/png">
+    <meta http-equiv="refresh" content="0; URL='https://web2.tecnico.ulisboa.pt/~ist199088/app.cgi/'"/>
+    <!-- Favicon to work in all desktop browsers:
+    <link rel="shortcut icon" href="//static.tecnico.ulisboa.pt/favicon.png" type="image/png"> -->
+    
+
+</head>
+<body>
+    <section id="content-wrap">
+        <div id="background">
+            <div class="overlay"></div>
+        </div>
+        <div id="logo">
+            <a href="https://web2.tecnico.ulisboa.pt/~ist199088/app.cgi/" style="color: #fff;"><h1>Redirecting</h1></a>
+        </div>
+        <article>
+            <div id="content" class="">
+                        <table>
+                            <tr>
+                                <td><a href = "update_teams"><img id='miniinverted' src="https://cdn-icons-png.flaticon.com/128/4140/4140115.png"></a></td>
+                                <td><a href="teams">Teams</a></td>
+                                <td>{{result[0]}}</td>
+                            </tr>
+                            <tr>
+                                <td><a href = "update_games"><img id='miniinverted' src="https://cdn-icons-png.flaticon.com/128/4140/4140115.png"></a></td>
+                                <td><a href="games">Games</a></td>
+                                <td>{{result[1]}}</td>
+                                <td>{{result[3]}}</td>
+                            </tr>
+                            <tr>
+                                <td><a href = "update_players"><img id='miniinverted' src="https://cdn-icons-png.flaticon.com/128/4140/4140115.png"></a></td>
+                                <td><a href="players">Players</a></td>
+                                <td>{{result[2]}}</td>
+                            </tr>
+                        </table>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

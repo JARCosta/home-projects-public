@@ -1,0 +1,4 @@
+#!/bin/bash
+chmod 755 templates/*
+chmod 755 static/*
+chmod 755 *
